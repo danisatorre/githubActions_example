@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
+console.log(falloError);
 
 app.get('/', (req, res) => {
     res.send('Hola mon! Aquest es el meu primer servidor Node.js de Dani Satorre');
